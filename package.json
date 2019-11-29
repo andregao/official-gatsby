@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "official-gatsby",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Andre Gao's Portfolio Website",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -13,9 +13,19 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "dotenv": "^8.2.0",
     "gatsby": "^2.17.4",
+    "gatsby-background-image": "^0.9.7",
+    "gatsby-image": "^2.2.33",
+    "gatsby-plugin-playground": "^1.0.6",
+    "gatsby-plugin-sharp": "^2.3.2",
+    "gatsby-plugin-styled-components": "^3.1.13",
+    "gatsby-source-contentful": "^2.1.63",
+    "gatsby-transformer-sharp": "^2.3.5",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
