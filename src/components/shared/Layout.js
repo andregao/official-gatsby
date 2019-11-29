@@ -18,6 +18,18 @@ const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     font-family: Helvetica, sans-serif, Arial;
+    
+    // variables
+    --hero-text-color-light: white;
+    --icon-color-on-light: black;
+    --icon-color-on-dark: white;
+  }
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    &:visited, &:link, &:active {
+      color:inherit;
+    }
   }
 `;
 

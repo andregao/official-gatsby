@@ -21,8 +21,8 @@ const Hero = () => {
       <Background fluid={sources}>
         <TextContainer>
           <p className={'greeting'}>{greeting}</p>
-          <p className={'full-name'}>{name}</p>
-          <p className={'title'}>{title}</p>
+          <h1 className={'full-name'}>{name}</h1>
+          <h2 className={'title'}>{title}</h2>
         </TextContainer>
       </Background>
     </section>
@@ -67,7 +67,7 @@ const Background = styled(BackgroundImage)`
 `;
 
 const TextContainer = styled.div`
-  color: white;
+  color: var(--hero-text-color-light);
   position: absolute;
   top: 30%;
   left: 10%;
