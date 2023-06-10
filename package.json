@@ -15,7 +15,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "dotenv": "^8.2.0",
-    "gatsby": "^2.17.4",
+    "gatsby": "^4.25.7",
     "gatsby-background-image": "^0.9.7",
     "gatsby-image": "^2.2.33",
     "gatsby-plugin-playground": "^1.0.6",
